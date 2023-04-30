@@ -23,8 +23,35 @@ class MyProfile extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 50,
-                backgroundImage: AssetImage('images/asd.jpg'),
-              )
+                backgroundImage: AssetImage('images/img.jpg'),
+              ),
+               Text(
+                "Mr.Mohammady",
+                style: TextStyle(
+                  fontFamily: 'Pacifico',
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
+               Text(
+                "FLUTTER DEVELOPER",
+                style: TextStyle(
+                  fontFamily: "Source Sans Pro",
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 2.5,
+                  color: Colors.teal[100],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+                width: 150,
+                child: Divider(
+                  color: Colors.blueGrey.shade900,
+                ),
+              ),
+             
             ],
           ),
         ),
