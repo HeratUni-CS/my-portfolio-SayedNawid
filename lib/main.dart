@@ -46,7 +46,7 @@ class MyProfile extends StatelessWidget {
               ),
               SizedBox(
                 height: 20,
-                width: 150,
+                width: 200,
                 child: Divider(
                   color: Colors.blueGrey.shade900,
                 ),
