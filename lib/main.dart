@@ -51,7 +51,43 @@ class MyProfile extends StatelessWidget {
                   color: Colors.blueGrey.shade900,
                 ),
               ),
-             
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                child: ListTile(
+                  leading: Icon(
+                      Icons.phone,
+                      size: 30,
+                      color: Colors.blueGrey,
+                    ),
+                    title:  Text(
+                      "+(93) 792 881 775",
+                      style: TextStyle(
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20,
+                        color: Colors.teal.shade900,
+                      ),
+                    ),
+                )
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                child: ListTile(
+                  leading: Icon(
+                      Icons.email,
+                      color: Colors.blueGrey,
+                      size: 30,
+                    ),
+                    title: Text(
+                      "sayednawidmohammady@gmail.com",
+                      style: TextStyle(
+                        fontFamily: 'Source Sans Pro',
+                        color: Colors.teal.shade900,
+                      ),
+                    ), 
+                )
+              ),
             ],
           ),
         ),
